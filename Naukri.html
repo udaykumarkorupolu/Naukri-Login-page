@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Noukari</title>
+    <meta name="viewport" content="width=width-divice,initial-scale=1.0">
+</head>
+<style>
+    h2{
+        margin-bottom: 5px;
+    }
+    #Name,#Email,#pass,#Mnum{
+        height:43px;
+        width:550px;
+        border-radius: 15px;
+        border-style:solid;
+    }
+    button{
+        height:100px;
+        width:254px;
+        border-radius: 10px;
+        border-style:solid;
+    }
+    div{
+        width:600px;
+        display:block;
+        margin:auto;
+    }
+</style>
+<body>
+   <div>
+    <fieldset style=" border-radius: 10px;border-width:thin;">
+    <form>
+        <h2>Create your Naukri profile</h2>
+        Search & apply to jobs from India's No.1 Job Site<br><br><br>
+        <label for="Name"><b>Full name</b></label><br>
+        <input type="text" id="Name" required placeholder="What is your name?"><br><br>
+        <label for="Email"><b>Email ID</b></label><br>
+        <input type="email" id="Email" required placeholder="Tell us your email ID"><br>
+        <small>We'll send relevant jobs and updates to this email</small><br><br>
+        <label for="pass"><b>Password</b></label><br>
+        <input type="password" id="pass" required placeholder="(Minimum 6 characters)"><br>
+        <small>This helps your account stay protected</small><br><br>
+        <label for="Mnum"><b>Mobile number</b></label><br>
+        <input type="number" id="Mnum" required placeholder="Enter your mobile number"><br>
+        <small>Please enter your mobile number</small><br><br>
+        <label><b>Work status</b></label><br><br>
+        <input type="radio" required name="status"><button>I'm experienced
+            I have work experience (excluding internships)</button>
+        <input type="radio" name="status"><button>I'm a fresher
+            I am a student/ Haven't worked after graduation</button> <br><br>   
+        <input type="submit">
+
+    </form>
+   </div> 
+   </fieldset>
+</body>
+</html>
